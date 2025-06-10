@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.services-1 {
+    text-align: center;
+    padding: 35px;
+    margin: 0 10px;
+}
+
+.services-1 h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Permanent Marker", cursive;
+}
+
+.services-1 img {
+    width: 40px;
+}
