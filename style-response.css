@@ -1,0 +1,103 @@
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        right: 0;
+        background-color: #A6A6A8;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #0000;
+    }
+
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 100px 30px 0 30px;
+    }
+
+    .header-txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .header-txt-1 h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 300px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 0 30px 0 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 0 30px 0 30px;
+    }
+
+    .info-1 {
+        text-align: center;
+        width: 100%;
+        order: 2;
+    }
+
+    .info-1 img {
+        width: 250px;
+    }
+
+    .info-2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .pizza {
+        padding: 30px;
+    }
+
+    .pizza-content {
+        margin-top: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+}

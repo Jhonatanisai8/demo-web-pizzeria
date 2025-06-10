@@ -118,14 +118,15 @@ p {
     font-weight: 600;
     text-transform: uppercase;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: #ffd;
 }
 
-.header-img{
+.header-img {
     width: 50%;
 }
 
-.header-img img{
+.header-img img {
     width: 700px;
 }
