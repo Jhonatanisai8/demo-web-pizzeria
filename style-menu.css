@@ -1,0 +1,39 @@
+.pizza {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.pizza-content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pizza-1 {
+    padding: 35px;
+    text-align: center;
+}
+
+.pizza-1 img {
+    width: 250px;
+}
+
+.pizza-1 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-2 {
+    display: inline-block;
+    color: #DB222A;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-2:hover {
+    background: #ddd;
+}
