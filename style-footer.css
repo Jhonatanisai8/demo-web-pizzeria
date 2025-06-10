@@ -1,0 +1,32 @@
+.footer {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.link h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #333;
+}
+
+.dev {
+    top: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+}
